@@ -1,0 +1,428 @@
+{
+    "mains": {
+        "Tuna Wrap": {
+            "price": 6.9,
+            "enabled": true
+        },
+        "Italian Roast Chicken Wrap": {
+            "price": 7.9,
+            "enabled": true
+        },
+        "Curry Chicken Rice": {
+            "price": 7.9,
+            "enabled": true
+        },
+        "Hor Fun": {
+            "price": 7.9,
+            "enabled": true
+        },
+        "Salmon Mac & Cheese": {
+            "Non Spicy": {
+                "price": 7.9,
+                "enabled": true
+            },
+            "Spicy": {
+                "price": 7.9,
+                "enabled": true
+            }
+        },
+        "Mashed Potato Chicken": {
+            "price": 8.9,
+            "enabled": true
+        },
+        "Oven Baked Chicken Pasta": {
+            "price": 8.9,
+            "enabled": true
+        },
+        "Mutton Rendang Briyani": {
+            "price": 9.9,
+            "enabled": true
+        },
+        "Oven Baked Arlene® Plant-Based Pasta": {
+            "price": 9.9,
+            "enabled": true
+        },
+        "Chicken Lasagna": {
+            "price": 10.9,
+            "enabled": true
+        },
+        "Vegan Lasagna": {
+            "price": 12.9,
+            "enabled": true
+        }
+    },
+    "desserts": {
+        "Pastries": {
+            "Signature Banana Cakes": {
+                "price": 3.5,
+                "enabled": true
+            },
+            "Big Muffins": {
+                "Double Chocolate": {
+                    "price": 3.9,
+                    "enabled": true
+                },
+                "Coffee Walnut": {
+                    "price": 3.9,
+                    "enabled": true
+                },
+                "Oatmeal Raisin": {
+                    "price": 3.9,
+                    "enabled": true
+                }
+            },
+            "Brownies": {
+                "Earl Grey": {
+                    "price": 6.5,
+                    "enabled": true
+                },
+                "Sea Salt": {
+                    "price": 6.5,
+                    "enabled": true
+                },
+                "Matcha": {
+                    "price": 6.5,
+                    "enabled": true
+                }
+            },
+            "Specials": {
+                "price": "TBD",
+                "enabled": true
+            },
+            "Whole Cakes & Custom Orders": {
+                "price": "TBD",
+                "enabled": true
+            }
+        },
+        "Handmade Ice Cream": {
+            "Chocolate": {
+                "1 Scoop": {
+                    "price": 4.4,
+                    "enabled": true
+                },
+                "2 Scoop": {
+                    "price": 7.9,
+                    "enabled": true
+                }
+            },
+            "Vanilla": {
+                "1 Scoop": {
+                    "price": 4.4,
+                    "enabled": true
+                },
+                "2 Scoop": {
+                    "price": 7.9,
+                    "enabled": true
+                }
+            },
+            "Cookies & Cream": {
+                "1 Scoop": {
+                    "price": 4.4,
+                    "enabled": true
+                },
+                "2 Scoop": {
+                    "price": 7.9,
+                    "enabled": true
+                }
+            },
+            "Matcha": {
+                "1 Scoop": {
+                    "price": 4.4,
+                    "enabled": true
+                },
+                "2 Scoop": {
+                    "price": 7.9,
+                    "enabled": true
+                }
+            },
+            "Homemade Waffles": {
+                "Quarter": {
+                    "price": 2.5,
+                    "enabled": true
+                },
+                "Half": {
+                    "price": 3.9,
+                    "enabled": true
+                }
+            },
+            "Affogato (Coffee w. Ice Cream)": {
+                "price": 6.9,
+                "enabled": true
+            }
+        }
+    },
+    "drinks": {
+        "coffee": {
+            "Espresso (Double Shot)": {
+                "Hot": {
+                    "price": 3.5,
+                    "enabled": true
+                }
+            },
+            "Americano / Long Black": {
+                "Hot": {
+                    "price": 3.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Coffee Latte / Cappuccino": {
+                "Hot": {
+                    "price": 3.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Latte Bomb": {
+                "Hot": {
+                    "price": 6.5,
+                    "enabled": true
+                }
+            },
+            "Mocha": {
+                "Hot": {
+                    "price": 5.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.9,
+                    "enabled": true
+                }
+            },
+            "Peppermint Mocha": {
+                "Hot": {
+                    "price": 6.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 6.9,
+                    "enabled": true
+                }
+            },
+            "Milk Alternatives": {
+                "Soy Milk": {
+                    "price": 1.2,
+                    "enabled": true
+                }
+            }
+        },
+        "Matcha / Hojicha": {
+            "Pure Matcha": {
+                "Hot": {
+                    "price": 3.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Pure Matcha (Decaf)": {
+                "Hot": {
+                    "price": 3.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Matcha Latte": {
+                "Hot": {
+                    "price": 4.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.5,
+                    "enabled": true
+                }
+            },
+            "Hojicha Latte (Decaf)": {
+                "Hot": {
+                    "price": 4.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.5,
+                    "enabled": true
+                }
+            },
+            "Dirty Matcha (Coffee w. Matcha)": {
+                "Hot": {
+                    "price": 5.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.9,
+                    "enabled": true
+                }
+            },
+            "Dirty Hojicha (Coffee w. Matcha)": {
+                "Hot": {
+                    "price": 5.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.9,
+                    "enabled": true
+                }
+            },
+            "Milk Alternatives": {
+                "Soy Milk": {
+                    "price": 1.2,
+                    "enabled": true
+                }
+            }
+        },
+        "Floral Teas": {
+            "Peach Green Tea": {
+                "Hot": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Yuzu Green Tea": {
+                "Hot": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Sakura Green Tea": {
+                "Hot": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Lavender Yuzu Hojicha (Decaf)": {
+                "Hot": {
+                    "price": 4.5,
+                    "enabled": true
+                }
+            },
+            "Honey Citron Tea": {
+                "Sparking": {
+                    "Iced": {
+                        "price": 5.9,
+                        "enabled": true
+                    }
+                },
+                "Still": {
+                    "Hot": {
+                        "price": 5.5,
+                        "enabled": true
+                    },
+                    "Iced": {
+                        "price": 5.9,
+                        "enabled": true
+                    }
+                }
+            },
+            "Honey Ginger Tea": {
+                "Sparking": {
+                    "Iced": {
+                        "price": 5.9,
+                        "enabled": true
+                    }
+                },
+                "Still": {
+                    "Hot": {
+                        "price": 5.5,
+                        "enabled": true
+                    },
+                    "Iced": {
+                        "price": 5.9,
+                        "enabled": true
+                    }
+                }
+            },
+            "Honey Aloe Tea": {
+                "Sparking": {
+                    "Iced": {
+                        "price": 5.9,
+                        "enabled": true
+                    }
+                },
+                "Still": {
+                    "Hot": {
+                        "price": 5.5,
+                        "enabled": true
+                    },
+                    "Iced": {
+                        "price": 5.9,
+                        "enabled": true
+                    }
+                }
+            }
+        },
+        "Chocolate": {
+            "Chocolate Latte": {
+                "Hot": {
+                    "price": 4.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 4.9,
+                    "enabled": true
+                }
+            },
+            "Matcha Chocolate Latte": {
+                "Hot": {
+                    "price": 5.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.9,
+                    "enabled": true
+                }
+            },
+            "Peppermint Chocolate Latte": {
+                "Hot": {
+                    "price": 5.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.9,
+                    "enabled": true
+                }
+            }
+        },
+        "Teas": {
+            "Pure Ceylon": {
+                "Hot": {
+                    "price": 3.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 3.9,
+                    "enabled": true
+                }
+            },
+            "Ceylon Latte": {
+                "Hot": {
+                    "price": 4.5,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 4.9,
+                    "enabled": true
+                }
+            },
+            "Honey Ceylon Latte": {
+                "Hot": {
+                    "price": 4.8,
+                    "enabled": true
+                },
+                "Iced": {
+                    "price": 5.5,
+                    "enabled": true
+                }
+            }
+        }
+    }
+}

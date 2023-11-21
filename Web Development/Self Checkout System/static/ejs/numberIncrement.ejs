@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs',{title:'Test',css:''}) -%>
+<div class="row"><div class="col"><div class="input-group"><button class="btn-subtract border btn btn-outline-dark" id="quantity">-</button><input type="number" value="1" inputmode="numeric" id="quantity" class="quantity-field border text-center w-25" style="padding-left:12px;"><button class="btn-add border btn btn-outline-dark" id="quantity">+</button></div></div></div>
+<script>
+	document.addEventListener('click', (e) => {
+		if (e.target.classList.contains('btn-add') || e.target.classList.contains('btn-subtract')) {
+			var input = e.target.closest('div').querySelector(`input[id="${e.target.getAttribute('id')}"]`);
+			var inputVal = parseInt(input.value);
+			input.value = !isNaN(inputVal) ? e.target.classList.contains('btn-add') ? inputVal + 1 : Math.max(inputVal - 1, 1) : 0;
+		};
+	});
+</script>
+<%- include('partials/footer.ejs') -%>

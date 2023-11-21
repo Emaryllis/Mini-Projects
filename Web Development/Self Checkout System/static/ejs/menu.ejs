@@ -1,0 +1,48 @@
+<%- include('partials/header.ejs',{title:'Menu',css:'menu.css'}) -%>
+<div class="container">
+  <nav class="navbar">
+    <ul class="nav nav-pills mb-3" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="pill" href="#mains" role="tab">Mains</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#desserts" role="tab">Desserts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#drinks" role="tab">Drinks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#panel" role="tab">Admin Panel</a>
+      </li>
+    </ul>
+    <i class="btn bi bi-cart3 nav-link justify-content-end" onclick="window.location.href=`http://127.0.0.1/payment`"></i>
+  </nav>
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="mains" role="tabpanel">
+      <h1>Mains</h1>
+      <%- mainsMenu %>
+    </div>
+    <div class="tab-pane fade" id="desserts" role="tabpanel">
+      <h1>Desserts</h1>
+      <%- dessertsMenu %>
+    </div>
+    <div class="tab-pane fade" id="drinks" role="tabpanel">
+      <h1>Drinks</h1>
+      <%- drinksMenu %>
+    </div>
+    <div class="tab-pane fade" id="panel" role="tabpanel">
+      <h1>Admin Panel</h1>
+      <%- panel %>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('btn-add') || e.target.classList.contains('btn-subtract')) {
+      var input = e.target.closest('div').querySelector(`input[id="${e.target.getAttribute('id')}"]`);
+      var inputVal = parseInt(input.value);
+      input.value = !isNaN(inputVal) ? e.target.classList.contains('btn-add') ? inputVal + 1 : Math.max(inputVal - 1, 0) : 0;
+    };
+  });
+</script>
+<%- include('partials/footer.ejs') -%>

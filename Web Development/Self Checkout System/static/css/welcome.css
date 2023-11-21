@@ -1,0 +1,7 @@
+.btn {
+    padding: 100px;
+    margin: 0 20px;
+}
+.btn:last-child{
+    padding: 100px 83px;
+}

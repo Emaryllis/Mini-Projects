@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Thank You!{% endblock %}
+{% block content %}
+{% from "others/forms.html" import render_field %}
+<div class="thankyou" style="text-align:center;">
+    <h1 class="display-3">Thank You!</h1>
+    <h2>Thank you for your message, {{session.pop('contactUsName')}}.<br>We will reply in a few business days
+        @<br>{{session.pop('contactUsEmail')}}</h2>
+    <a href="/" style="color:rgb(126, 126, 126);font-size:1.2em;text-decoration:none;"><span class="arrow"></span>Return
+        To Homepage</a>
+</div>
+{% endblock %}
