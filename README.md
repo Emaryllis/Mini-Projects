@@ -50,7 +50,7 @@ Here's an example of how to explore the mini projects in this repository:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Raven-Code/Mini-Projects.git
+git clone https://github.com/Emaryllis/Mini-Projects.git
 
 # Navigate to the project directory to explore different mini projects
 cd Mini-Projects-main
